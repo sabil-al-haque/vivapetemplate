@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="css/social.stream.css">
     <link rel="stylesheet" href="css/skin.css">
     <link rel="icon" href="images/logo-4.png">
+    
+    
+
 </head>
 <body>
     <div id="preloader"></div>
@@ -201,30 +204,33 @@ Ancona, Italy
     </div>
 
     
-    <div class="section-bg-image bg-top" style="background-image:url(images/bg-8.jpg)">
-        <div class="container content">
-            <form action="/submit_form.php" method="post">
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name"><br>
-        
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email"><br>
-
-                <label for="email">Phone:</label><br>
-                <input type="email" id="email" name="email"><br>
-        
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
-        
-                <input type="submit" value="Send">
-            </form>
-            
+             
+                    
+                
             
            
+      
+ 
+    
+
+    <div style="max-width: 400px; margin: 0 auto; background-color: #fff; padding: 20px; border-radius: 5px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);">
+    <h2 style="text-align: center; margin-bottom: 20px;">Contact Us</h2>
+    <form action="mailto:youremail@example.com" method="post" enctype="text/plain" style="margin-bottom: 20px;">
+        <div style="margin-bottom: 15px;">
+            <label for="name" style="display: block; margin-bottom: 5px; font-weight: bold;">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name.." required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
         </div>
-    </div>
-
-
+        <div style="margin-bottom: 15px;">
+            <label for="email" style="display: block; margin-bottom: 5px; font-weight: bold;">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email.." required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+        </div>
+        <div style="margin-bottom: 15px;">
+            <label for="message" style="display: block; margin-bottom: 5px; font-weight: bold;">Message</label>
+            <textarea id="message" name="message" placeholder="Write something.." style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; height: 150px;" required></textarea>
+        </div>
+        <button type="submit" style="background-color: #2713d5; color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer; width: 100%; transition: background-color 0.3s;">Submit</button>
+    </form>
+</div>
 
     
     <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
@@ -281,6 +287,13 @@ Ancona, Italy
         <script src="js/social.stream.min.js"></script>
         <script src="js/jquery.slimscroll.min.js"></script>
         <script src="js/sidebar.js" data-setting="signflow"></script>
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </footer>
 
 
