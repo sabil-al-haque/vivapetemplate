@@ -7455,3 +7455,13 @@ html.iex .img-box img {
 html.iex .footer-parallax {
     z-index: 0;
 }
+
+.nav-logo-resize{
+    width: 100%;
+    height: 100%;
+}
+
+.nav-logo-div{
+    width: 170px;
+    margin-top: -16px;
+}
