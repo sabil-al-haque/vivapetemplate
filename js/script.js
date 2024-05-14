@@ -945,7 +945,7 @@ function isScrollView(t) {
             $("body").on("click", ".side-menu > li", function (e) {
                 start_vertical_menu(this);
             });
-            $("header .dropdown-toggle").attr("href", "#");
+            // $("header .dropdown-toggle").attr("href", "#");
         }
 
         if ($(".side-menu-fixed").length) {
