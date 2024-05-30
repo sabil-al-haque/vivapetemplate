@@ -7468,3 +7468,17 @@ html.iex .footer-parallax {
     width: 170px;
     margin-top: -16px;
 }
+
+
+body {
+    font-family: "Roboto",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #000000;
+}
+
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
