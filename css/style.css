@@ -21,20 +21,23 @@ Table of contents
 GENERAL
 ==============================
 */
+p,h1,h2,h3,h4,h5,span{
+    color: #000;
+}
 
 body, .adv-img p, .caption-bottom p, .adv-circle .caption p, .advs-box p, .list-blog p {
     font-family: "Roboto",Helvetica,Arial,sans-serif;
     font-size: 13px;
     line-height: 1.42857143;
-    color: #4C4C4C;
+    color: #000000;
 }
 
 .text-color, .mi-menu ul li > a:before, .sidebar-nav .panel-item > span:before, i.icon, .block-infos .bd-day {
-    color: #6A4D8F;
+    color: #030303;
 }
 
 .bg-color {
-    background-color: #6A4D8F;
+    background-color: #0e0d0f;
 }
 
 #preloader {
@@ -229,7 +232,7 @@ TAG ROW
 
     .tag-row span {
         margin: 0 15px 0 0;
-        color: #9C9C9C;
+        color: #0d0d0d;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: clip;
@@ -238,7 +241,7 @@ TAG ROW
     }
 
     .tag-row a {
-        color: #9C9C9C;
+        color: #070606;
     }
 
     .tag-row span:last-child {
@@ -257,7 +260,7 @@ TAG ROW
 
     .tag-row i {
         padding-right: 10px;
-        color: #919191;
+        color: #0f0f0f;
     }
 
     .tag-row.cat {
@@ -288,7 +291,7 @@ TAG ROW
             .tag-row.icon-row span:after {
                 position: relative;
                 content: "/";
-                color: rgba(210, 210, 210, 0.5);
+                color: rgba(0, 0, 0, 0.5);
                 right: -16px;
             }
 
@@ -445,7 +448,7 @@ hr.d-dark {
 hr.e {
     max-width: 50px;
     width: 50px;
-    border-top: 3px solid #5D5D5D;
+    border-top: 3px solid #020202;
 }
 
 .text-center > hr.e {
@@ -827,7 +830,7 @@ BOXED AND BOXED INVERSE
 }
 
 [class*="col-md-"].boxed {
-    background-color: #444;
+    background-color: #0e0e0e;
 }
 
 .grid-item.boxed-inverse {
@@ -861,7 +864,7 @@ header {
 
 header .btn-default, header .btn, header .anima-button.circle-button, header .input-group .btn:not(.btn-border) {
     background-color: #FAFAFA;
-    color: #797979;
+    color: #020202;
 }
 
     header .btn-default:hover, header .circle-button:hover {
@@ -870,7 +873,7 @@ header .btn-default, header .btn, header .anima-button.circle-button, header .in
     }
 
 .navbar-default .navbar-nav > li > a, .mega-menu h5 {
-    color: #444;
+    color: #0b0a0a;
 }
 
 .nav > li.dropdown > a {
@@ -944,7 +947,7 @@ header .input-group input, header .btn-default, header .input-group .input-group
 }
 
 .input-group button {
-    color: #444;
+    color: #090808;
     font-weight: 400;
     font-size: 13px;
 }
@@ -956,7 +959,7 @@ header .social-group a i.fa {
     height: 30px;
     line-height: 22px;
     text-align: center;
-    color: #505050;
+    color: #0b0a0a;
 }
 
 .dropdown-menu .fa-ul .divider {
@@ -1037,7 +1040,7 @@ div.full-width-menu .inner .dropdown-submenu:hover > a:after, div.full-width-men
 
 .navbar-nav > li:hover > a, .navbar-default .navbar-nav > li > a:hover, .dropdown > li:hover > a, .dropdown-menu ul > li:hover > a, .subline-bar li:hover, .sidebar-nav ul a:hover, .panel-item > span:hover, .sidebar-nav .panel-item > span:hover, .bg-transparent li.active {
     color: #171717;
-    background: rgba(199,199,199,0.15);
+    background: rgba(0, 0, 0, 0.15);
 }
 
 .navbar-brand {
@@ -1092,7 +1095,7 @@ header .scroll-css .search-box {
 }
 
     .navbar-big .navbar-nav > .active > a, .navbar-big .navbar-nav > li > a:hover {
-        color: #555;
+        color: #020202;
         background-color: #F7F7F7;
     }
 
@@ -1101,22 +1104,22 @@ header .scroll-css .search-box {
 }
 
 .hamburger-button {
-    color: #636363;
+    color: #040404;
     font-size: 30px;
     padding: 4px 15px;
     display: inline-block;
 }
 
     .hamburger-button i {
-        color: #636363;
+        color: #0b0a0a;
     }
 
     .hamburger-button:hover {
-        color: #6A4D8F;
+        color: #090909;
     }
 
     .hamburger-button.active {
-        color: #6D6D6D;
+        color: #060606;
         text-shadow: 0 -1px 0 #080808;
     }
 
